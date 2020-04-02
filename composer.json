@@ -1,0 +1,31 @@
+{
+    "name": "vitorbritto/gympass-sdk-php",
+    "type": "library",
+    "description": "We enable partners to have their classes booked by our users. Usually, in order to register classes and update their schedule when a user books a class, a partner has to access our Partners’ Portal. But with Booking API it’s possible to add classes’ schedules on Gympass app and website, enabling users to book such classes directly from there, updating the partner’s own schedule automatically.",
+    "keywords": ["Gympass API","API","SDK"],
+    "homepage": "https://github.com/vitorbritto",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Vitor Britto",
+            "email": "code@vitorbritto.com.br",
+            "homepage": "https://github.com/vitorbritto"
+        }
+    ],
+    "require": {
+        "php": ">=5.4.0",
+        "ext-curl": "*",
+        "ext-json": "*",
+        "ext-mbstring": "*",
+        "mashape/unirest-php": "~3.0.1",
+        "apimatic/jsonmapper": "~1.3.0"
+    },
+    "require-dev": {
+        "squizlabs/php_codesniffer": "^2.7"
+    },
+    "autoload": {
+        "psr-4": {
+            "GympassAPILib\\": "src/"
+        }
+    }
+}
