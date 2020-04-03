@@ -1,7 +1,6 @@
 # Getting started
 
-Integrate Gympass Booking API in easy way.
-
+An easy way to Integrate Gympass Booking API.
 
 ## Installation
 
