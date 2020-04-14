@@ -8,10 +8,11 @@
     "authors": [
         {
             "name": "Vitor Britto",
-            "email": "code@vitorbritto.com.br",
-            "homepage": "https://github.com/vitorbritto"
+            "email": "code@vitorbritto.com.br"
         }
     ],
+    "minimum-stability": "dev",
+    "prefer-stable": true,
     "require": {
         "php": ">=5.4.0",
         "ext-curl": "*",
